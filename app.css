@@ -1,0 +1,28 @@
+main {
+  display: flex;
+  height: calc(100vh - 37px);
+}
+
+#greensection {
+  background-color: green;
+  flex: 6; 
+}
+
+#orangesection {
+  background-color: #ffA500;
+  flex: 6;
+  padding: 20px;
+}
+
+#formContainer {
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form {
+  display: grid;
+  gap: 15px;
+}
+  
+  
